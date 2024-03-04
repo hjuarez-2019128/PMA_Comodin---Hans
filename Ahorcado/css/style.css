@@ -1,0 +1,80 @@
+
+body {
+    background: url("../image/Ahorcado.jpg") no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;
+}
+
+.container-fluid {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto {
+    font-size: 50px;
+    color: #ffd5b1;
+    font-style: italic;
+}
+
+#inicio {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#reiniciar {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#inicio:hover {
+    background-color: #61C5F2;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 4%;
+}
+
+.letras {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #f5973d;
+    cursor: pointer;
+}
+
+.letras:hover {
+    background-color: #98ff96;
+}
+
+.letraResaltada {
+    font-weight: bold; 
+    color:  #FFB833 !important;
+}
+
+.cajaStyle {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: transparent;
+}
+
+#myCanvas {
+    width: 100%;
+    height: 400px;
+}
